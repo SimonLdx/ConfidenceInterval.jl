@@ -3,6 +3,7 @@ module ConfidenceInterval
 using Statistics
 using Distributions
 
+export student, confidence_interval
 
 "Gives the Student coefficient corresponding to a confidence interval of `confidence` (∈ [0,1]) for a measurement repeated `n` times."
 function student(n,confidence)
